@@ -20,7 +20,7 @@ main {
   /* aspect-ratio: 1/1; */
   width: min(50vw, 50vh);
   height: min(50vw, 50vh);
-  box-shadow: 5px 5px 10px #322411;
+  box-shadow: 1vmin 1vmin 1vmin #322411;
   border: 1vmin solid #b1751a;
 }
 

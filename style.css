@@ -12,14 +12,19 @@ main {
   background-color: ivory;
   height: 100vh;
   width: 100vw;
+  gap: 2vmin;
+}
+
+h1 {
+  font-size: min(5vw, 5vh);
 }
 
 .board {
   display: flex;
   flex-flow: row wrap;
   /* aspect-ratio: 1/1; */
-  width: min(50vw, 50vh);
-  height: min(50vw, 50vh);
+  width: min(75vw, 75vh);
+  height: min(75vw, 75vh);
   box-shadow: 1vmin 1vmin 1vmin #322411;
   border: 1vmin solid #b1751a;
 }
@@ -29,7 +34,7 @@ main {
   width: 12.5%;
   height: 12.5%;
   text-align: center;
-  font-size: min(4vw, 4vh);
+  font-size: min(7vw, 7vh);
 }
 
 .white {

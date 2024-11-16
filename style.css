@@ -30,17 +30,17 @@ h1 {
 .board {
   display: flex;
   flex-flow: row wrap;
-  /* aspect-ratio: 1/1; */
+  aspect-ratio: 1/1;
   width: min(75vw, 75vh);
-  height: min(75vw, 75vh);
-  box-shadow: 1vmin 1vmin 1vmin var(--black);
+  /* height: min(75vw, 75vh); */
+  /* box-shadow: 1vmin 1vmin 1vmin var(--black); */
   border: 1vmin solid var(--wood);
 }
 
 .square {
-  /* aspect-ratio: 1/1; */
+  aspect-ratio: 1/1;
   width: 12.5%;
-  height: 12.5%;
+  /* height: 12.5%; */
   text-align: center;
   font-size: min(7vw, 7vh);
 }
